@@ -1,0 +1,92 @@
+$fmIcon: '../assets/framer-modules-icon.png'
+
+$fontFamily: -apple-system, 'SF UI Text', 'Helvetica Neue', 'Helvetica', Arial, sans-serif
+$fontWeightRegular: 300
+
+$colorBackground: #131415
+$colorText: #ffffff
+$colorInputBackground: $colorText
+$colorInputText: $colorBackground
+$colorInputPlaceholder: #9A9FAC
+$colorFramerBlue: #145BFF
+$colorMessageBad: #FF2D55
+$colorMessageGood: #4CD964
+
+$elementMargin: 0 auto 40px auto
+
+$iconSize: 120px
+$formHeight: 45px
+
+body
+    margin: 0
+    padding: 0
+    font: $fontWeightRegular 17px/30px $fontFamily
+    background-color: $colorBackground
+    letter-spacing: 0.2px
+    color: $colorText
+    text-align: center
+
+main
+    width: 480px
+    height: 400px
+    margin: auto
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+
+div.icon
+    margin: $elementMargin
+    width: $iconSize
+    height: $iconSize
+    background: url($fmIcon) top left no-repeat
+    background-size: $iconSize $iconSize
+
+h1
+    margin: $elementMargin
+    font: $fontWeightRegular 30px/45px $fontFamily
+
+p
+    margin: $elementMargin
+
+form
+    overflow: hidden
+    width: 320px
+    margin: $elementMargin
+
+button, input
+    margin: 0
+    height: $formHeight
+    font-size: 15px
+    border: none
+    outline: none
+    box-sizing: border-box
+
+button
+    color: $colorText
+    background-color: $colorFramerBlue
+    cursor: pointer
+
+input
+    float: left
+    border-radius: 4px 0 0 4px
+    background-color: $colorInputBackground
+    color: $colorInputText
+    padding: 0 0 0 15px
+    width: 230px
+
+button.single
+    width: 250px
+    border-radius: 4px
+
+button.paired
+    float: left
+    width: 90px
+    border-radius: 0 4px 4px 0
+
+.bad
+    color: $colorMessageBad
+
+.good
+    color: $colorMessageGood
