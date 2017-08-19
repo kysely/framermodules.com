@@ -1,8 +1,8 @@
 {
-  "name": "framer-modules-open",
+  "name": "framer-modules-checkname",
   "version": "1.0.0",
-  "description": "Redirect for opening the modules in Framer Modules via custom URL scheme",
-  "main": "assets/open.js",
+  "description": "Checking for availability of module names for Framer Modules",
+  "main": "assets/checkname.js",
   "scripts": {
     "build": "babel assets/ --out-dir dist/",
     "open": "open index.html"
