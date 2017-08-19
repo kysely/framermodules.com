@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "babel assets/ --out-dir dist/ && node-sass assets/default.sass dist/default.css",
-    "open": "open index.html"
+    "open": "open index.html",
+    "push": "git push -u origin master"
   },
   "author": "Radek Kysely",
   "license": "MIT",
