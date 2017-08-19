@@ -5,7 +5,8 @@
   "main": "assets/checkname.js",
   "scripts": {
     "build": "babel assets/ --out-dir dist/",
-    "open": "open index.html"
+    "open": "open index.html",
+    "push": "git push -u origin checkname"
   },
   "author": "Radek Kysely",
   "license": "MIT",
