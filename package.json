@@ -1,17 +1,16 @@
 {
-  "name": "framer-modules-www",
+  "name": "framer-modules-open",
   "version": "1.0.0",
-  "description": "Framer Modules homepage",
-  "main": "index.js",
+  "description": "Redirect for opening the modules in Framer Modules via custom URL scheme",
+  "main": "assets/open.js",
   "scripts": {
-    "build": "babel assets/ --out-dir dist/ && node-sass assets/default.sass dist/default.css",
+    "build": "babel assets/ --out-dir dist/",
     "open": "open index.html"
   },
   "author": "Radek Kysely",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "node-sass": "^4.5.3"
+    "babel-preset-es2015": "^6.24.1"
   }
 }
