@@ -1,6 +1,6 @@
 # framermodules.com
-Source for Framer Modules websites. Sites are running on [Netlify]
-(https://netlify.com) and sources for each subdomain are split into branches:
+Source for Framer Modules websites. Sites are running on [Netlify](https://netlify.com)
+and sources for each subdomain are split into branches:
 
 - `master` — **current** — Homepage (currently redirect to the main repo)
                                         [*(open)*](https://www.framermodules.com)
