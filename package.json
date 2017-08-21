@@ -1,6 +1,6 @@
 {
   "name": "framer-modules-open",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Redirect for opening the modules in Framer Modules via custom URL scheme",
   "main": "assets/open.js",
   "scripts": {
