@@ -1,4 +1,4 @@
-const repoURL = 'https://www.github.com/kysely/framer-modules'
+const repoURL = 'https://www.github.com/kysely/framer-modules#docs'
 
 window.onload = () => {
     window.setTimeout(function() {
